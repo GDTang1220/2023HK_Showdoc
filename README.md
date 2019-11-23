@@ -1,38 +1,80 @@
-# 2023HK_Showdoc
+﻿## 中文版教程：https://www.showdoc.cc/help 
 
-#### 介紹
-{**以下是碼雲平臺說明，您可以替換此簡介**
-碼雲是開源中國推出的基於 Git 的程式碼託管平臺（同時支持 SVN）。專為開發者提供穩定、高效、安全的雲端軟體開發協作平臺
-無論是個人、團隊、或是企業，都能夠用碼雲實現程式碼託管、項目管理、協作開發。企業項目請看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+### What is ShowDoc ?
 
-#### 架構
-架構說明
+Whenever we take over a module or project which has been developed by other people, we always feel crazy watching at those codes without notes. Where is the document?! Where is the document?! **Show me the doc !!**
 
-#### 安裝教程
+A programmer often hopes the others to write technical documents, with the hope of not writing them on his/her own. Because writing a technical document needs a lot of time to handle the format and layout, and the person who writes it has to think of all kinds of non-technical details such as which catalog to put in the newly-established word document
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+All kinds of the word documents are kept by different persons in a team dispersedly. The person who needs other documents gets the documents by shouting out. He/She gives a shout asking for the documents and then receives them from other people by IMs or the e-mail. This kind of communication is not bad, but the efficiency is not high.
 
-#### 使用說明
+ShowDoc is a tool greatly applicable for an IT team to share documents online. It can promote communication efficiency among members of the team.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### What can it be used for?
 
-#### 參與貢獻
+- #### API Document （ [Demo](https://www.showdoc.cc/demo-en)）
+ 
+ With the development of mobile Internet, BaaS (Backend as a Service) becomes more and more popular. The Server end provides API, and the APP end or Webpage frontend can invoke data conveniently. Using ShowDoc can compile exquisite API documents in a very fast and convenient way.
 
-1.  Fork 本倉庫
-2.  新建 Feat_xxx 分支
-3.  提交程式碼
-4.  新建 Pull Request
+- #### Data Dictionary （ [Demo](https://www.showdoc.cc/demo-en)）
+ 
+ A good Data Dictionary can easily exhibit database structure to other people, such as definition of each field and the like.
 
+- #### Explanation Document （ [Demo](https://www.showdoc.cc/help-en)）
+ 
+ You can absolutely use ShowDoc to compile the explanation documents for some tools, as well as to compile some technical specifications explanation documents for the team to look up.
+ 
+### What functions does it have?
 
-#### 碼雲特技
+- #### Sharing and Exporting
 
-1.  使用 Readme\_XXX.md 來支持不同的語言，例如 Readme\_en.md, Readme\_zh.md
-2.  碼雲官方部落格 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 這個地址來瞭解碼雲上的優秀開源項目
-4.  [GVP](https://gitee.com/gvp) 全稱是碼雲最有價值開源項目，是碼雲綜合評定出的優秀開源項目
-5.  碼雲官方提供的使用手冊 [https://gitee.com/help](https://gitee.com/help)
-6.  碼雲封面人物是一檔用來展示碼雲會員風采的欄目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+ Responsive webpage design can share the project documents to computer or mobile devices for reading. It can also export the project into word document for browsing offline.
+ 
+- #### Permission Management
+
+ - Public Project and Private Project
+ 
+   Projects on ShowDoc are divided into two categories including Public Project and Private Project. Public Project can be visited by any user no matter he/she logs in or not, while inputting password for verification is needed for visiting the Private Project. The password is set by project creator. 
+   
+  - Project Transfer
+  
+   The project creator can transfer the project to other users of the website freely.
+   
+  - Project Members
+  
+   You can easily add or delete project members in the project of ShowDoc. Members of the project can edit the project, but they can not transfer or delete the project (only creator of the project has the permission).
+   
+- #### Edit Function
+  - Markdown Edit
+  
+   ShowDoc adopts Markdown Editor, and it is excellent both in editing and reading experience. If you know nothing about Markdown, please search “Learning and Introduction of Markdown” on the search engine.
+   
+  - Template Insert
+  
+   On the editing page of ShowDoc, a click on the button which is on the top of the Editor can easily insert API interface template and data dictionary template. After inserting the template, altering data is the only thing that need to do and it reduces a lot of work in editing.
+   
+  - History Version
+  
+   ShowDoc provides a function of History Version on the page, and you can easily restore the page to the former version.
+   
+
+### Deploy It to Your Own Server
+ - ShowDoc Deploy
+  
+     Please refer to: [AutoInstall.md](https://github.com/star7th/showdoc/blob/master/documentation/en/AutoInstall.md)
+
+ - Development & Contribution
+
+   Please refer to: [Development&Contribution.md](https://github.com/star7th/showdoc/blob/master/documentation/en/Development&Contribution.md)
+
+### Copyright 
+
+ ShowDoc is issued complying with Apache2 Open Source License, and it is for free use. 
+ 
+ Copyright ©  star7th 
+ 
+ 
+ E-mail: xing7th#gmail.com (change # into @) 
+ 
+ All rights reserved. 
+ 
