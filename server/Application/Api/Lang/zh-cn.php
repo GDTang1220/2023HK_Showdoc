@@ -23,11 +23,11 @@ return array(
 
 
     //index
-    'help' => '帮助',
-    'demo' => '示例',
-    'index_login_or_register' => '登录 / 注册',
-    'my_item' => '我的项目',
-    'section_title1' => 'ShowDoc',
+    'help' => 'Help',
+    'demo' => 'Demo',
+    'index_login_or_register' => 'Login / Sign up',
+    'my_item' => 'My Project',
+    'section_title1' => 'Show API',
     'section_description1' => '一个非常适合IT团队的在线API文档、技术文档工具',
     'section_title2' => 'API文档',
     'section_description2' => ' APP、web前端与服务器常用API来进行交互<br>用ShowDoc可以非常方便快速地编写出美观的API文档',
